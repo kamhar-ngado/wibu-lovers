@@ -1,0 +1,65 @@
+.kawaii {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body {
+    background-color: aqua;
+}
+
+ul {
+    /* make nav in single line */
+    white-space: nowrap;
+    max-width: 1200000px;
+    /* make nav in the always in the center */
+    margin: 0 auto;
+}
+
+ul li {
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+    width: 30%;
+    font-size: 25px;
+}
+
+ul li a {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+a:hover {
+    background: lightgreen;
+    color: red;
+    text-decoration: underline;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 10px 5px;
+}
+
+h2 {
+    font-family: fantasy;
+    color: pink;
+    border-bottom: 10px solid lightblue;
+    border-right: 10px solid lightblue;
+    width: 140px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: pink;
+}
+
+@media screen and (max-width: 560px){
+    ul li{
+        display: block;
+        text-align: left;
+    }
+    
+}
